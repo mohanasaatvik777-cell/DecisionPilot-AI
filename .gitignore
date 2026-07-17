@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment files — NEVER commit secrets
+backend/.env
+frontend/.env
+chatbot-agent/.env
+*.env
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+chatbot-agent/venv/
+chatbot-agent/__pycache__/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
